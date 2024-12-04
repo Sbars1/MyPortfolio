@@ -10,7 +10,7 @@ Bu proje Murat Yücedağ'ın Udemy platformu üzerinden 2 part olarak yayınlad�
 * DAL klasörü ile veri tabanı bağlantısı sağlanarak veriler dinamik olarak eklendi.
 * View Component'ler kullanılarak sayfa yönetimi kolaylaştırıldı.
 
-## [Admin Paneli](#admin-paneli-1)
+## Admin Paneli
 <!-- Dashboard, projeye ait veriler görselleştirildi.
 * To Do List, yapılacaklar listesi oluşturuldu. Yapıldı olarak işaretle butonu seçildiğinde, görev bildirim panelinden kaybolur.-->
 <!--Hakkımda, kullanıcı tarafında gözükecek hakkımda yazısı seçilebilir. Bir tanesi seçildiğinde diğerleri pasif duruma gelir.-->
