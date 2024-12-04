@@ -44,6 +44,8 @@ Bu proje Murat Yücedağ'ın Udemy platformu üzerinden 2 part olarak yayınlad�
   - Entity Framework 6.0
 ![portfolio ss](https://github.com/user-attachments/assets/4cd0bad8-4022-4c54-a7e6-ded846fbe51d)
 
+![image](https://github.com/user-attachments/assets/449a4aea-c38b-492d-a468-fe3e6718ddff)
+
 
 ![image](https://github.com/user-attachments/assets/bc139af5-7ce1-42cc-8fce-e63eb20fdf13)
 
