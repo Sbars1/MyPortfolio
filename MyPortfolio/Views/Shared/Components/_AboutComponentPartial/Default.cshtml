@@ -1,26 +1,27 @@
-﻿
+﻿@model About
+@* 
 <section id="about" class="s-about target-section">
 
-    <div class="row narrow section-intro has-bottom-sep">
-        <div class="col-full text-center">
-            <h3>Hakkımda</h3>
-            <h1>@ViewBag.aboutTitle </h1>
-            <p class="lead"> @ViewBag.aboutSubDescription</p>
-        </div>
-    </div>
-
-    <div class="row about-content">
-
-        <div class="col-six tab-full left">
-            <h3>Ben Kimim !</h3>
-
-            <p> @ViewBag.aboutDetail </p>
+    @if (Model != null && Model.Status && ViewBag.aboutstatus)
+    {
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>Hakkımda</h3>
+                <h1>@ViewBag.aboutTitle</h1>
+                <p class="lead">@ViewBag.aboutSubDescription</p>
+            </div>
         </div>
 
-        @await Component.InvokeAsync("_SkillComponentPartial")
+        <div class="row about-content">
+            <div class="col-six tab-full left">
+                <h3>Ben Kimim !</h3>
+                <p>@ViewBag.aboutDetail</p>
+            </div>
 
-    </div> 
-
+            @await Component.InvokeAsync("_SkillComponentPartial")
+        </div>
+        
+    }
     <div class="row about-content about-content--buttons">
 
         <div class="col-six tab-full left">
@@ -35,7 +36,44 @@
     <!
 
 </section> 
+ *@
 
 
 
+<section id="about" class="s-about target-section">
+
+    @if (Model.Status )
+    {
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>Hakkımda</h3>
+                <h1>@Model.Title</h1>
+                <p class="lead">@Model.SubDescription</p>
+            </div>
+        </div>
+
+        <div class="row about-content">
+            <div class="col-six tab-full left">
+                <h3>Ben Kimim !</h3>
+                <p>@Model.Details</p>
+            </div>
+
+            @await Component.InvokeAsync("_SkillComponentPartial")
+        </div>
+
+    }
+    <div class="row about-content about-content--buttons">
+
+        <div class="col-six tab-full left">
+            <a href="~/portfolio-theme/bos-cv.pdf" class="btn btn--primary full-width " download="Cv">CV'mi İndir </a>
+        </div>
+        <div class="col-six tab-full right">
+            <a href="mailto:stem.bars99@gmail.com" class="btn full-width">Bana Yazın</a>
+        </div>
+
+    </div>
+    @await Component.InvokeAsync("_ExperienceComponentPartial")
+    <!
+
+</section>
 
