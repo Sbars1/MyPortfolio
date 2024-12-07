@@ -1,7 +1,8 @@
 ﻿@model List<Exprience>
 @{
-    ViewData["Title"] = "ExperienceList";
-    Layout = "~/Views/Layout/Index.cshtml";
+	ViewData["Title"] = "ExperienceList";
+	Layout = "~/Views/Layout/Index.cshtml";
+	int count = 0;
 }
 
 	<div class="content">
@@ -31,6 +32,7 @@
 								<tbody>
 									@foreach(var item in Model)
 									{
+									count++;
 									<tr>
 										<td>@item.ExprienceId</td>
 										<td>@item.Head</td>

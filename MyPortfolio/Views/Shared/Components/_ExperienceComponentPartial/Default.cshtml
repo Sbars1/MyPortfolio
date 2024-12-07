@@ -1,4 +1,8 @@
 ﻿@model List<MyPortfolio.DAL.Entities.Exprience>
+@{
+    int count = 0;
+}
+
 <div class="row about-content about-content--timeline">
 
     <div class="col-full text-center">
@@ -6,8 +10,8 @@
     </div>
     @foreach(var item in Model)
     {
-
-    <div class="col-six tab-full left">
+        count++;
+        <div class="col-six tab-full left">
         <div class="timeline">
             <div class="timeline__block">
                 <div class="timeline__bullet"></div>
