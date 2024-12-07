@@ -52,5 +52,7 @@ Bu proje Murat Yücedağ'ın Udemy platformu üzerinden 2 part olarak yayınlad�
 
 ![image](https://github.com/user-attachments/assets/4813cd02-57a9-487c-91f9-43ab57bd9110)
 
+![image](https://github.com/user-attachments/assets/86266a5f-7ace-4cdc-ac23-f802e46ba94b)
+
 
 ![image](https://github.com/user-attachments/assets/9261bd33-3779-43b9-840d-a7aee6f8b581)
