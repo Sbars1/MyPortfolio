@@ -42,17 +42,22 @@ Bu proje Murat Yücedağ'ın Udemy platformu üzerinden 2 part olarak yayınlad�
 
 # Kullanılan Framework Sürümü
   - Entity Framework 6.0
-![portfolio ss](https://github.com/user-attachments/assets/4cd0bad8-4022-4c54-a7e6-ded846fbe51d)
-
-![image](https://github.com/user-attachments/assets/449a4aea-c38b-492d-a468-fe3e6718ddff)
+![screencapture-localhost-44390-DefaultController1-Index-2024-12-07-21_02_18](https://github.com/user-attachments/assets/efc4337f-3f7f-4d7e-9d1d-e290cbfcb3a9)
 
 
-![image](https://github.com/user-attachments/assets/bc139af5-7ce1-42cc-8fce-e63eb20fdf13)
+
+![image](https://github.com/user-attachments/assets/63d32537-2102-4101-adbf-08b80625da00)
 
 
-![image](https://github.com/user-attachments/assets/4813cd02-57a9-487c-91f9-43ab57bd9110)
 
-![image](https://github.com/user-attachments/assets/86266a5f-7ace-4cdc-ac23-f802e46ba94b)
+![image](https://github.com/user-attachments/assets/09c341e8-bf10-4b2b-9028-f7fca1d72f6e)
 
 
-![image](https://github.com/user-attachments/assets/9261bd33-3779-43b9-840d-a7aee6f8b581)
+![image](https://github.com/user-attachments/assets/2870ea2f-bb28-499c-a990-06e5327b2c39)
+
+
+![image](https://github.com/user-attachments/assets/69130d9b-1cf0-41be-909e-43ed072e8536)
+
+
+![image](https://github.com/user-attachments/assets/7666df6c-2f51-4eca-b084-3ab46542eb7c)
+
